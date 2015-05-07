@@ -27,7 +27,7 @@ import org.apache.maven.plugin.MojoFailureException;
  * @goal update-stylesheets
  * @phase process-sources
  */
-public class UpdateStylesheetsMojo extends AbstractSassMojo {
+public class UpdateSassStylesheetsMojo extends AbstractSassMojo {
 
     @Override
     public void execute() throws MojoExecutionException, MojoFailureException {
